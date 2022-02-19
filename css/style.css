@@ -223,14 +223,24 @@ Header section
 .header-section {
 	padding-left: 55px;
 	padding-right: 72px;
-	background: #08192d;
+	background-color: #0a183d;
+
 }
 
 .site-logo {
+
+	color: #ffffff;
 	display: inline-block;
-	padding: 0;
+	font-size: 36px;
+	height: 100px;
+	padding: 3% 7%;
+	text-decoration: none;
 
 }
+.site-logo:hover{
+	color: #fc0254;
+}
+
 
 .header-right {
 	float: right;
@@ -277,7 +287,7 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #E6F5FF;
 	padding: 44px 10px;
 	margin-left: 60px;
 }
@@ -339,6 +349,7 @@ Hero section
 
 .hero-section {
 	overflow: hidden;
+	text-align: center;
 }
 
 .hs-item {
@@ -393,8 +404,8 @@ Hero section
 }
 
 .hr-img img {
-	min-width: 100%;
-	position: relative;
+	width: 100%;
+	position: absolute;
 
 
 	opacity: 0;
@@ -567,6 +578,23 @@ Subscription section
 Premium section
  -------------------*/
 
+ .premium-section {
+	 text-align: center;
+	 background-color: #0a183d;
+	 color: #ffffff;
+	 line-height: 1.5;
+ }
+
+ .premium-h2 {
+	 color: #ffffff;
+	 padding-bottom: 30px;
+ }
+ .premium-h4 {
+	 color: #ffffff;
+	 padding-bottom: 10px;
+
+ }
+
 .premium-section p {
 	margin-bottom: 50px;
 }
@@ -596,8 +624,9 @@ Responsive
  -------------------*/
 
 .footer-section {
-	background: #0a183d;
+	background: #ffffff;
 	padding: 100px 0 85px;
+	text-align: center;
 }
 
 .footer-widget {
@@ -635,6 +664,11 @@ Responsive
 	color: #6a7080;
 	font-size: 18px;
 	margin-right: 35px;
+	text-align: center;
+}
+
+.social-links a:hover{
+	color: #fc0254;
 }
 
 /* ----------------
@@ -1588,7 +1622,7 @@ Responsive
 
 @media only screen and (max-width: 767px) {
 	.hr-img {
-		display: none;
+		display: inline-block;
 	}
 	.slicknav_menu {
 		display: block;
